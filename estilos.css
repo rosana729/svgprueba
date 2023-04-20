@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+ body{
+    background-color: #181D31;
+    
+} 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    padding: 10px;
+    list-style: none;
+}
+svg{
+    margin-left: 5px;
+    border: 2px solid #ccc;
+}
+
+.poli1 {
+  animation: aparecer 500ms; 
+  background-color: #f0e7e7;
+}
+svg .dos{
+    margin-left: 5px;
+}
+@keyframes aparecer {
+100% {
+    transform: none;
+    visibility:visible;
+    }  
+0% {
+    transform: translateY(50%);
+    visibility:hidden;
+    }  
+}
